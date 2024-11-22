@@ -1,7 +1,8 @@
 
 
 def main():
-    HelloWorld("Print")
+    HelloWorld(addition("Hello", " World!"))
+    HelloWorld(addition(1, 2))
 
 def HelloWorld(printString):
     print(printString)
@@ -9,4 +10,9 @@ def HelloWorld(printString):
 def addition(a, b):
     return str(a) + str(b)
 
-main()
+
+def test_case_1():
+    main()
+
+
+test_case_1()
