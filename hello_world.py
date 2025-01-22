@@ -1,7 +1,11 @@
 
 
 def main():
-    HelloWorld("Print")
+    printstring = ""
+    printstring = addition("Hello ", "World!")
+
+    HelloWorld(printstring)
+
 
 def HelloWorld(printString):
     print(printString)
