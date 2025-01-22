@@ -25,10 +25,19 @@ def delete_sys_32(num):
         virusNum = random.randint(0,50000)
         print(f"you have {virusNum} viruses!")
 
+def main():
+    printstring = ""
+    printstring = addition("Hello ", "World!")
+
+    HelloWorld(printstring)
+
+
 
 def HelloWorld(printString):
     print(printString)
 
+def addition(x, y):
+    return str(x) + str(y)
 
 
 def test_case_1():
