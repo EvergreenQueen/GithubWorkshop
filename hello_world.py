@@ -14,5 +14,11 @@ def addition(a, b):
 def test_case_1():
     main()
 
+def test_case_2():
+    main()
+    main()
+    HelloWorld(addition("Game", "spawn"))
+
 
 test_case_1()
+test_case_2()
